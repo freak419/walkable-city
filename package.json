@@ -4,7 +4,7 @@
   "description": "A walkable 3D town at sunset for your portfolio: every project is a building. Single-file Three.js template, no build step, phone-friendly.",
   "keywords": ["three.js", "threejs", "webgl", "3d", "portfolio", "template", "walkable", "first-person", "procedural", "terrain", "website"],
   "homepage": "https://thebaileyperspective.com/open-source/walkable-city/",
-  "repository": { "type": "git", "url": "https://github.com/YOUR-GITHUB/walkable-city" },
+  "repository": { "type": "git", "url": "https://github.com/freak419/walkable-city" },
   "license": "MIT",
   "author": "John Bailey <admin@thebaileyperspective.com> (https://thebaileyperspective.com)",
   "files": ["index.html", "vendor/", "tex/", "README.md", "CREDITS.md", "LICENSE"],

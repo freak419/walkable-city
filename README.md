@@ -20,7 +20,7 @@ One HTML file, [three.js](https://threejs.org) r170, no build step, runs on phon
 ## Quick start
 
 ```bash
-git clone https://github.com/YOUR-GITHUB/walkable-city
+git clone https://github.com/freak419/walkable-city
 cd walkable-city
 npx --yes serve .        # or: python3 -m http.server 8080
 ```
