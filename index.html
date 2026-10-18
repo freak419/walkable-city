@@ -147,6 +147,7 @@ noscript .panel{margin:40px auto}
 @keyframes introIn{from{opacity:0;transform:translateY(14px)}to{opacity:1;transform:none}}
 @media (max-width:560px){.brand small{display:none}.brand b{font-size:.85rem}.panel{padding:22px 16px;border-radius:20px}.tools .btn span{display:none}.tools .btn{padding:.6rem .8rem}#compass{top:calc(env(safe-area-inset-top,0px) + 64px)}#hint{top:calc(env(safe-area-inset-top,0px) + 104px)}}
 @media (prefers-reduced-motion:reduce){#fade{transition:none}}
+.credit{position:fixed;right:12px;bottom:10px;z-index:30;font:600 11px/1 Manrope,system-ui,sans-serif;letter-spacing:.04em;color:rgba(255,255,255,.72);text-decoration:none;background:rgba(20,12,8,.45);border:1px solid rgba(255,255,255,.18);border-radius:999px;padding:6px 10px;backdrop-filter:blur(6px)}.credit:hover{color:#fff;background:rgba(20,12,8,.7)}@media(max-width:720px){.credit{bottom:auto;top:58px;right:12px}}
 </style>
 </head>
 <body>
@@ -212,9 +213,12 @@ noscript .panel{margin:40px auto}
         <li data-site="sun" data-landmark data-mono="☀" data-h="40" data-tint="#f2b705" data-kind="Made by The Bailey Perspective" data-href="https://thebaileyperspective.com/case-studies/client-city-walkable-3d-portfolio/"><button type="button"><i class="dot" style="--tint:#f2b705"></i><div><b>The Sun</b><i>The studio that built this template</i><span>Walkable City is the open-source engine behind Client City by The Bailey Perspective. The setting sun past the square links home; point it wherever you like.</span></div></button><a class="ext" href="https://thebaileyperspective.com/case-studies/client-city-walkable-3d-portfolio/" target="_blank" rel="noopener" aria-label="Open the case study">↗</a></li>
         <li class="join" data-site="lot" data-lot data-href="https://github.com/YOUR-GITHUB/walkable-city/blob/main/README.md#add-a-building"><button type="button"><i class="dot" style="--tint:#f2b705"></i><div><b>Your building here</b><i>Open lot · add a building</i><span>Three lots are open along the road. Add a <li> to the directory, give it a style and a plot, and it appears in town.</span></div></button><a class="ext" href="https://github.com/YOUR-GITHUB/walkable-city/blob/main/README.md#add-a-building" aria-label="Join Client City">↗</a></li>
       </ol>
-      <a class="back" href="https://github.com/YOUR-GITHUB/walkable-city">★ Walkable City on GitHub · MIT · made by <span style="text-decoration:underline">The Bailey Perspective</span></a>
+      <a class="back" href="https://github.com/YOUR-GITHUB/walkable-city">★ Walkable City on GitHub · MIT</a> <a class="back" href="https://thebaileyperspective.com/open-source/walkable-city/" target="_blank" rel="noopener">made by The Bailey Perspective ↗</a>
     </div>
   </nav>
+
+  <!-- Credit: keeping this one line is how you say thanks. Remove it if you must (MIT). -->
+  <a class="credit" href="https://thebaileyperspective.com/open-source/walkable-city/" target="_blank" rel="noopener" title="Walkable City, an open-source Three.js template by The Bailey Perspective">Built with Walkable City</a>
 
   <div id="fade"></div>
 </div>
